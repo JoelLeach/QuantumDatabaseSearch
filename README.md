@@ -18,7 +18,7 @@ Let's expand upon the example by associating values with each index. Imagine we 
 
 We'll have one two-qubit register that contains the keys, and a separate two-qubit register that contains the values.  How do we associate the key register with specific values in the value register?  The approach taken here is one of entanglement.  That is best demonstrated with a circuit. [Click here to see the actual Quirk circuit](https://algassert.com/quirk#circuit={%22cols%22:[[%22H%22,%22H%22],[%22%E2%80%A6%22,%22%E2%80%A6%22],[%22%E2%97%A6%22,%22%E2%97%A6%22,%22X%22,%22X%22],[%22%E2%80%A2%22,%22%E2%97%A6%22,1,%22X%22],[%22%E2%97%A6%22,%22%E2%80%A2%22],[%22%E2%80%A2%22,%22%E2%80%A2%22,%22X%22],[1,1,%22Chance2%22],[1,1,%22%E2%80%A6%22,%22%E2%80%A6%22],[1,1,%22%E2%97%A6%22,%22%E2%80%A2%22,%22X%22]]}).
 
-![Key/Value Oracle circuit](QuirkCircuit.png "Key/Value Oracle Circuit")
+![Key/Value Oracle circuit](https://raw.githubusercontent.com/JoelLeach/QuantumDatabaseSearch/master/QuirkCircuit.PNG "Key/Value Oracle Circuit")
 
 Note that this circuit contains only the oracle.  It does not implement all of Grover's algorithm. 
 
