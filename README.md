@@ -1,6 +1,6 @@
 ﻿# Quantum Database Key/Value Search Sample #
 
-[Microsoft's Q# Database Search Sample](https://github.com/Microsoft/Quantum/tree/master/Samples/src/DatabaseSearch) walks through Grover's search algorithm. Oracles implementing the database are explicitly constructed together with all steps of the algorithm. This is a modified version of of the first example (of two) in the sample.
+[Microsoft's Q# Database Search Sample](https://github.com/Microsoft/Quantum/tree/master/Samples/src/DatabaseSearch) walks through Grover's search algorithm. Oracles implementing the database are explicitly constructed together with all steps of the algorithm. This is a modified version of the first example (of two) in the sample.
 
 The Microsoft sample searches for a specific index/key in the database, which is not very useful. This code expands upon that sample to search a list of values in a database and return the corresponding key.
 
